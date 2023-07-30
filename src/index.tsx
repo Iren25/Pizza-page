@@ -1,25 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App/App';
+//import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 import Message from './Message/Message';
 import Counter from './Counter/Counter';
 import Apple from './Apple/Apple';
 import Pizza from './Pizza/Pizza';
+import Pet from './Pet/Pet';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+    <React.StrictMode>
     <Pizza />
     <></>
     <Apple />
-    <App />
-    <Message />
+    <Message msg='hello from index' title='qwe' />
     <Counter />
-  </React.StrictMode>
+    <Pet />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

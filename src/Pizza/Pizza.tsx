@@ -12,7 +12,7 @@ export default function Pizza(): JSX.Element {
     function handleAddPepperoni(): void {
         setPizza(`${pizza} пепперони`);
     }
-    function handleAddMushrooms(): void {
+    function handleAddMushrooms(): void { 
         setPizza(`${pizza} грибы`);
     }
     function handleAddOliven(): void {
