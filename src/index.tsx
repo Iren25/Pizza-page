@@ -8,6 +8,9 @@ import Counter from './Counter/Counter';
 import Apple from './Apple/Apple';
 import Pizza from './Pizza/Pizza';
 import Pet from './Pet/Pet';
+import DogCard from './DogCard/DogCard';
+import Consultation from './Consultation/Consultation';
+import Activity from './Activity/Activity';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,6 +23,9 @@ root.render(
     <Message msg='hello from index' title='qwe' />
     <Counter />
     <Pet />
+    <DogCard />
+    <Activity />
+    <Consultation />
     </React.StrictMode>
 );
 
